@@ -3,17 +3,6 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:sample/constants/strings/home_page_strings.dart';
 import 'package:sample/shared/widgets/ribbon_widget.dart';
 
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: HeaderRibbon(),
-    );
-  }
-}
-
 class HeaderRibbon extends StatelessWidget {
   const HeaderRibbon({
     Key? key,
@@ -93,4 +82,3 @@ class HeaderRibbon extends StatelessWidget {
     );
   }
 }
-
