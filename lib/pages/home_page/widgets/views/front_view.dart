@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:sample/pages/home_page/widgets/inital_view/dropdowns.dart';
+import 'package:sample/shared/widgets/custom_rounded_button.dart';
 
 class FrontView extends StatelessWidget {
   const FrontView({Key? key}) : super(key: key);
@@ -8,12 +10,36 @@ class FrontView extends StatelessWidget {
     return Container(
       color: Colors.grey[200],
       height: 650,
-      child: Column(
-        children: [
-          Row(
-            children: [],
-          ),
-        ],
+      child: Padding(
+        padding: const EdgeInsets.all(15.0),
+        child: Column(
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.only(left: 50.0),
+                  child: Row(
+                    children: [
+                      Image.asset(
+                        'assets/raahi_logo.png',
+                        width: 250.0,
+                      ),
+                    ],
+                  ),
+                ),
+                Row(
+                  children: [
+                    Dropdowns(),
+                    CustomRoundedButton2(),
+                    SizedBox(width: 40),
+                  ],
+                ),
+                // Row(),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }

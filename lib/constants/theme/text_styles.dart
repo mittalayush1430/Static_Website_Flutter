@@ -6,3 +6,4 @@ const TextStyle callUsTextStyle = TextStyle(
 );
 const TextStyle phoneNumTextStyle = TextStyle(fontSize: 12);
 const TextStyle payNowTextStyle = TextStyle(fontSize: 16);
+const TextStyle letsTalkTextStyle = TextStyle(fontSize: 16);
