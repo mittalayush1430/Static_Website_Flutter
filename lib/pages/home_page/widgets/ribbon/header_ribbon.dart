@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sample/constants/strings/home_page_strings.dart';
-import 'package:sample/pages/home_page/widgets/ribbon_widget.dart';
+import 'package:sample/pages/home_page/widgets/ribbon/ribbon_widget.dart';
 import 'package:sample/shared/widgets/custom_rounded_button.dart';
 
 import 'button_row.dart';
