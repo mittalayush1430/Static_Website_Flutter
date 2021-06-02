@@ -5,6 +5,16 @@ class FrontView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      color: Colors.grey[200],
+      height: 650,
+      child: Column(
+        children: [
+          Row(
+            children: [],
+          ),
+        ],
+      ),
+    );
   }
 }
