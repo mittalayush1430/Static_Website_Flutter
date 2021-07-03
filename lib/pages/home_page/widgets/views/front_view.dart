@@ -10,7 +10,7 @@ class FrontView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.grey[200],
-      height: 1000,
+      height: 650,
       child: Column(
         children: [
           Row(
@@ -22,7 +22,7 @@ class FrontView extends StatelessWidget {
                   children: [
                     Image.asset(
                       'assets/raahi_logo.png',
-                      width: 250.0,
+                      width: 400.0,
                     ),
                   ],
                 ),

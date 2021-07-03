@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sample/constants/strings/home_page_strings.dart';
 import 'package:sample/constants/theme/text_styles.dart';
+
 class LLPText extends StatelessWidget {
   const LLPText({
     Key? key,
@@ -8,7 +9,6 @@ class LLPText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
     return Container(
       child: Expanded(
         child: Column(
@@ -27,6 +27,7 @@ class LLPText extends StatelessWidget {
               children: [
                 Text(
                   inclusiveText,
+                  style: inclusiveTextStyle,
                 ),
                 SizedBox(width: 40),
               ],

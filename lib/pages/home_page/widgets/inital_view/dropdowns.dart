@@ -7,11 +7,13 @@ class Dropdowns extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var setupBusinessText = 'Setup Business';
+    var signUps = 'Sign Ups';
     return Row(
       children: [
-        Text('Setup Business'),
+        Text(setupBusinessText),
         SizedBox(width: 40),
-        Text('Sign Ups'),
+        Text('$signUps'),
         SizedBox(width: 40),
         Text('Taxes'),
         SizedBox(width: 40),
